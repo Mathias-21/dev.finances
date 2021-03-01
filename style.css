@@ -1,0 +1,68 @@
+/*============================global===========================*/
+* {
+    background-color: #DDDEE1;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#container {
+    width: min(90vw, 800px);
+    margin: auto;
+}
+
+/*============================Header===========================*/
+
+#logo {
+    background-color: #284021;
+    text-align: center;
+    color: white;
+    height: 10rem;
+    padding-top: 2rem;
+}
+
+/*============================balance===========================*/
+#balance {
+    margin-top: -4rem;
+    background-color: transparent;
+}
+
+#balance h2 {
+    background-color: #284021;
+    color: white;
+}
+
+.card {
+    padding: 1rem;
+    border-radius: 0.25rem 0 0 0.25rem;
+    background-color: white;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.card h3 {
+    background-color: white;
+}
+
+.card p {
+    background-color: white;
+}
+
+.card.total {
+    background-color: #388A1D;
+    color: white;
+}
+
+.card.total h3{
+    background-color: #388A1D;
+}
+
+.card.total p {
+    background-color: #388A1D;
+}
+
+footer {
+    text-align: center;
+    margin-top: 1rem;
+
+}
